@@ -69,6 +69,10 @@ const mathFunc = {
         // 素数とみなされた割合を返す
         return sosuu / tagainiso;
     }
+
+    function getDigitsArray(number, radix) {
+        return number.toString(radix).split("").map(digit => parseInt(digit, radix));
+    }
 }
 
 export { mathFunc };
