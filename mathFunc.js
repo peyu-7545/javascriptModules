@@ -46,6 +46,7 @@ const mathFunc = {
      * @return 素数とみなされた割合
      */
     fermatTest(n, k) {
+        if (n == 2) return 1;
         if (!k || 2 + k >= n) k = n - 2
 
         let sosuu = 0;
