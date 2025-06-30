@@ -441,3 +441,5 @@ class Mat {
         return result;
     }
 }
+
+export default Mat
