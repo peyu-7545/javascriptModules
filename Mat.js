@@ -441,5 +441,3 @@ class Mat {
         return result;
     }
 }
-
-export {Mat}
