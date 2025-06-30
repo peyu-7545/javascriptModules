@@ -442,4 +442,4 @@ class Mat {
     }
 }
 
-export default Mat
+export {Mat}
