@@ -5,7 +5,7 @@
  * @typedef {Object} Mat 行列
  * @class 行列に関する演算と操作のクラス
  */
-export class Mat {
+class Mat {
 
     /**
      * 行列を作成する
@@ -441,3 +441,5 @@ export class Mat {
         return result;
     }
 }
+
+export default Mat;
