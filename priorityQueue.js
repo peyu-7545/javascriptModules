@@ -116,7 +116,7 @@ class PriorityQueue {
     }
 }
 
-
+export default PriorityQueue;
 /*
     典型的な優先度付きキューです
     例外処理などは特にやっていません
