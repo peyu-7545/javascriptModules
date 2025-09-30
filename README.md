@@ -1,10 +1,11 @@
-# 私用JSモジュール
+# 私用JavaScriptモジュール集
 
-## mathFunc.js
-数学系
+## [PriorityQueue.js](PriorityQueue.js)
+* JS実装のシンプル優先度つきキュー
 
-## AKS.js  
-未整備  
+## [reversi.js](reversi.js)
+* リバーシ
+* いろいろ削ぎ落とした軽量版:[reversiP.js](reversiP.js)
 
-## Mat.js
-自作の行列操作モジュール
+## その他
+* 近日中に作り直し、または削除予定
