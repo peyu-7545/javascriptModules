@@ -1,4 +1,7 @@
 # 私用JavaScriptモジュール集
 
 ## [PriorityQueue.js](PriorityQueue.js)
-* JS実装のシンプル優先度つきキュー
+* シンプル優先度つきキュー
+
+## [HammingWeight.js](HammingWeight.js)
+* ハミング重みを扱う用
