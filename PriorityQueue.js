@@ -2,12 +2,11 @@
 class PriorityQueue {
 
     /**
-     * 要素を保持する配列
-     * @param {String} compareProparty 比較するプロパティ名
      * @param {any[]} 初期要素
+     * @param {String} compareProparty 比較するプロパティ名
      * @returns {PriorityQueue} 優先度付きキューのインスタンス
      */
-    constructor(compareProparty, initalElement) {
+    constructor(initalElement,compareProparty) {
         this.q = [];
         this.c = compareProparty;
         if (initalElement) {
