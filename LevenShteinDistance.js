@@ -53,5 +53,5 @@ function LevenshteinDistance(str1, str2) {
 		}
 	}
 
-	return D;
+	return get(l1, l2);
 }
