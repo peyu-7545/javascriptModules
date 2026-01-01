@@ -41,7 +41,7 @@ function LevenshteinDistance(str1, str2) {
 	for (let i1 = 1; i1 <= l1; i1++) {
 		for (let i2 = 1; i2 <= l2; i2++) {
 
-			const cost = str1[i1] == str2[i2] ? 0 : 1;
+			const cost = str1[i1 - 1] == str2[i2 - 1] ? 0 : 1;
 
 			const minDist = Math.min(
 				get(i1 - 1, i2) + 1, // 削除
