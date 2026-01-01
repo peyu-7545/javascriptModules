@@ -31,11 +31,11 @@ function LevenshteinDistance(str1, str2) {
 	const set = (i1, i2, v) => D[i1 * (l2 + 1) + i2] = v;
 
 	for (let i1 = 0; i1 <= l1; i1++) {
-		set(i1, 0) = i1;
+		set(i1, 0, i1);
 	}
 
 	for (let i2 = 0; i2 <= l2; i2++) {
-		set(0, i2) = i2;
+		set(0, i2, i2);
 	}
 
 	for (let i1 = 1; i1 <= l1; i1++) {
